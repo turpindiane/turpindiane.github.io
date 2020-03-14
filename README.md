@@ -1,1 +1,0 @@
-# turpindiane.github.io
