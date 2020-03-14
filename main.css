@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: white;
     font-family: 'Inconsolata', ;
     font-size: 12pt;
     padding: 15px;
@@ -7,6 +7,29 @@ body {
     padding-top: 0px;
 }
 
-img {
-    max-width: 350px;
+#profileImage{
+	max-width: 150px;
+}
+
+#hamburgerIcon{
+	max-width: 20px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#links{
+	display: none;
+	right: 20px;
+	top: 40px;
+	position: absolute;
+	text-align: right;
+}
+
+#menu{
+	float: right;
+}
+
+#header{
+	text-align: center;
 }
