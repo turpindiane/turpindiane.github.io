@@ -1,0 +1,61 @@
+.experienceSection{
+	width: 600px;
+	margin: auto;
+}
+
+.expandIcon{
+	max-width: 20px;
+	float: right;
+}
+
+#securianFullTimeLabel{
+	background-color: #ffffce;
+	text-align: center;
+	padding: 1%;
+}
+
+#securianFullTimeDetails{
+	background-color: #ffffe8;
+	text-align: center;
+	padding: 1%;
+	display: none;
+}
+
+#securianInternLabel{
+	background-color: #e7ffce;
+	text-align: center;
+	padding: 1%;
+}
+
+#securianInternDetails{
+	background-color: #f3ffe8;
+	text-align: center;
+	padding: 1%;
+	display: none;
+}
+
+#voyaLabel{
+	background-color: #cee7ff;
+	text-align: center;
+	padding: 1%;
+}
+
+#voyaDetails{
+	background-color: #e8f3ff;
+	text-align: center;
+	padding: 1%;
+	display: none;
+}
+
+#uOfMLabel{
+	background-color: #cecfff;
+	text-align: center;
+	padding: 1%;
+}
+
+#uOfMDetails{
+	background-color: #e8e8ff;
+	text-align: center;
+	padding: 1%;
+	display: none;
+}

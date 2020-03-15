@@ -116,27 +116,6 @@ body {
 	position: fixed;	
 }
 
-#aboutMeSectionOne{
-	width: 40%;
-	padding-left: 5%;
-}
-
-#aboutMeSectionOneText{
-	background-color: #feffd1;
-	text-align: right;
-}
-
-#beanie{
+.contactImage{
 	max-width: 100px;
-}
-
-#aboutMeSectionTwo{
-	width: 40%;
-	padding-right: 5%;
-	float: right;
-}
-
-#aboutMeSectionTwoText{
-	background-color: #d1ffd2;
-	text-align: right;
 }

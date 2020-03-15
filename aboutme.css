@@ -1,0 +1,38 @@
+.aboutMeSection{
+	width: 600px;
+	margin: auto;
+}
+
+#beanieSectionText{
+	background-color: #a6a6ed;
+	text-align: center;
+	padding: 1%;
+}
+
+.aboutMeImage{
+	max-height: 100px;
+}
+
+#rollerDerbySectionText{
+	background-color: #bcbcf2;
+	text-align: center;
+	padding: 1%;
+}
+
+#rubiksCubeSectionText{
+	background-color: #d1d1f6;
+	text-align: center;
+	padding: 1%;
+}
+
+#pokemonSectionText{
+	background-color: #e6e6fa;
+		text-align: center;
+	padding: 1%;
+}
+
+#travelSectionText{
+	background-color: #fbfbfe;
+		text-align: center;
+	padding: 1%;
+}

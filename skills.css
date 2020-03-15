@@ -1,0 +1,73 @@
+.skillsSection{
+	text-align: center;
+	margin: auto;
+}
+
+#languagesText{
+	background-color: #9a91a2;
+    padding: 20px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+#languagesSection{
+	display: block;
+}
+
+#frameworksText{
+	background-color: #a69fad;
+    padding: 20px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+#frameworksSection{
+	display: none;
+}
+
+#educationText{
+	background-color: #b3adb9;
+    padding: 20px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+#educationSection{
+	display: none;
+}
+
+#forwardIcon{
+	max-width: 15%;
+	float: left;
+	padding-left: 12.5%;
+}
+
+#backwardIcon{
+	max-width: 15%;
+	float: left;
+	padding-right: 12.5%;
+}
+
+.arrowContainer{
+	margin: auto;
+}
+
+.navigationCircle{
+	max-width: 5%;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+}
+
+#navigationCircleContainer{
+	width: 100%;
+}
+
+#scrollContainer{
+	width: 33%;
+	margin: auto;
+}
