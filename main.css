@@ -1,10 +1,6 @@
 body {
-    background-color: white;
-    font-family: 'Inconsolata', ;
-    font-size: 12pt;
-    padding: 15px;
-    padding-bottom: 75px;
-    padding-top: 0px;
+    background-color: #ffd2d1;
+    font-family: 'Fira Code', monospace;
 }
 
 #profileImage{
@@ -12,8 +8,8 @@ body {
 }
 
 #hamburgerIcon{
-	max-width: 20px;
-	position: absolute;
+	max-width: 60px;
+	position: fixed;
 	right: 10px;
 	top: 10px;
 }
@@ -21,7 +17,7 @@ body {
 #links{
 	display: none;
 	right: 20px;
-	top: 40px;
+	top: 65px;
 	position: absolute;
 	text-align: right;
 }
@@ -32,4 +28,90 @@ body {
 
 #header{
 	text-align: center;
+}
+
+#intro{
+	font-size: 12pt;
+}
+
+#blueContainer{
+	background-color: #d1feff;
+	width: 20%;
+	text-align: center;
+	margin: auto;
+}
+
+#introText{
+	padding: 20px;
+}
+
+#introNavigation{
+	text-align: center;
+	margin: auto;
+}
+
+#aboutMeContainer{
+	padding-left: 11%;
+	width: 11%;
+	text-align: center;
+	float: left;
+}
+
+#aboutMeText{
+	background-color: #85fcff;
+}
+
+#aboutMeText:hover{
+	background-color: white;
+}
+
+#experienceContainer{
+	padding-left: 11%;
+	width: 11%;
+	text-align: center;
+	float: left;
+}
+
+#experienceText{
+	background-color: #9efdff;
+}
+
+#experienceText:hover{
+	background-color: white;
+}
+
+#skillsContainer{
+	padding-left: 11%;
+	width: 11%;
+	text-align: center;
+	float: left;
+}
+
+#skillsText{
+	background-color: #b8fdff;
+}
+
+#skillsText:hover{
+	background-color: white;
+}
+
+#contactContainer{
+	padding-left: 11%;
+	padding-right: 11%;
+	width: 11%;
+	text-align: center;
+	float: left;
+}
+
+#contactText{
+	background-color: #d1feff;
+}
+
+#contactText:hover{
+	background-color: white;
+}
+
+#iconCredit{
+	bottom: 1px;
+	position: fixed;	
 }
