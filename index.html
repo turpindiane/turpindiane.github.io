@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="icons/fruit.png"/>
   </head>
   
-  <body>
+  <body onload="renderPage()">
     <div id="menu">
       <a href="javascript:void(0);"><img src="icons/hamburger.png" id="hamburgerIcon" onclick="toggleMenu()"/></a>
       <div id="links">
@@ -32,7 +32,7 @@
       <div id="blueContainer">
         <div id="introText">
           Hello! <br/>
-          I'm a 23 year old software developer living in the Twin Cities.
+          I'm a <div id="index.age"> </div> year old software developer living in the Twin Cities.
         </div>
       </div>
     </div>

@@ -8,3 +8,21 @@ function toggleMenu() {
     x.style.display = "block";
   }
 }
+
+/* Calculate age based on date */
+function renderPage(){
+	var birthdate = new Date('May 15, 1996 00:00:00');
+	var currentDate = new Date();
+
+	var age = currentDate.getFullYear() - birthdate.getFullYear() - 1;
+	if(birthdate.getMonth() < currentDate.getMonth()) {
+		age = age + 1;
+	}
+	if(birthdate.getMonth() == currentDate.getMonth()){
+		if(birthdate.getDate() <= currentDate.getDate()){
+			age = age + 1;
+		}
+	}
+
+	document.getElementById("index.age").innerHTML = age;
+}
